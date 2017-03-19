@@ -1,0 +1,103 @@
+body{
+	background-image: url(../assets/crab-1990198_1280.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.overlay{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    width: 100%;
+    background: rgba(10, 10, 10, 0.65);
+
+} 
+.text-justify {
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+.container{
+	margin-top: 20px;
+}
+             /***fadetoggle***/
+.btn-danger {
+    color: #fff !important;
+    background-color: #083b6d !important;
+    border-color: #083b6d !important;
+    
+    font-size: 20pxv!important;
+    margin-top: 8px !important;
+    font-family: serif !important;
+    padding: 5px 20px !important;
+    box-shadow: 0px 0px 9px 0px #2b6c9a !important;
+    margin-right: 10px !important;
+
+}
+.h2fon{
+	color: white;
+	display: none;
+	color: #048bef;
+}
+
+.even, .odd, .last ,.first{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 10px 0px;
+    background: rgba(193, 193, 36, 0.88);
+    box-shadow: 0px 0px 9px 0px #2b6c9a;
+    cursor: pointer;
+
+} 
+.even{
+	background: rgba(34, 185, 100, 0.81);
+	
+}
+.odd{
+	background: rgba(162, 77, 77, 0.74);
+	
+}
+.last{
+	background: #504d47;
+}
+.first{
+	background: rgba(193, 193, 36, 0.88);
+	
+}
+           /***fadetoggle***/
+           /***textarea***/
+span{
+	color: white;
+	margin-top: 20px;
+	font-size: 15px;
+	text-transform: capitalize;
+	font-family: monospace;
+}
+
+           /***textarea***/
+
+
+.image-thum .thumbnail {
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: none;
+    border: none;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+b {
+   
+    font-size: 20px;
+    font-family: inherit;
+    text-transform: capitalize;
+    font-weight: 400;
+}
